@@ -17,30 +17,23 @@ a {
   text-decoration: none;
 }
 
-.landingPage {
-  background: #2e2e2e;
-  height: 100%;
-  /* position: relative; */
-}
+/* - general font style Work and ebc2 color */
 
-.landingPage2 {
-  background: #2e2e2e;
-  height: 100%;
-  /* position: relative; */
+.fontStyleWork {
+  font-family: Work;
+  color: #ebccc2;
 }
 
 /* - Page Styling */
 
-.page2and3and4 {
+.page2and3and4,
+.landingPage,
+.landingPage2 {
   background: #2e2e2e;
   height: 100%;
 }
 
 /* - header styling */
-
-/* .positionHeader {
-  position: relative;
-} */
 
 header {
   position: fixed;
@@ -129,10 +122,6 @@ aside a:hover {
   transition: 0.7s ease;
 }
 
-aside a:active {
-  color: #ffffff;
-}
-
 .spacing {
   margin: 10px 0 10px 3px;
   height: 50px;
@@ -143,7 +132,6 @@ aside a:active {
 
 .upperMain {
   padding: 120px 60px;
-  /* height: 120vh; */
 }
 
 .upperImg {
@@ -154,8 +142,6 @@ aside a:active {
 
 h1 {
   margin-bottom: 100px;
-  color: #ebccc2;
-  font-family: Work;
   font-size: 2.4rem;
   font-weight: 300;
   margin-left: 350px;
@@ -184,8 +170,6 @@ h1 {
 }
 
 .description h3 {
-  color: #ebccc2;
-  font-family: Work;
   font-size: 2.4rem;
   margin-bottom: 10px;
 }
@@ -203,24 +187,23 @@ h1 {
 
 /* - image Styling */
 
-.bigImg {
-  background: url("../img/section-experience-1.jpg") no-repeat center;
+.generalImg {
   height: 100vh;
   width: 50vw;
+}
+
+.bigImg {
+  background: url("../img/section-experience-1.jpg") no-repeat center;
   background-size: cover;
 }
 
 .bigImg2 {
   background: url("../img/section-voyager.jpg") no-repeat center;
-  height: 100vh;
-  width: 50vw;
   background-size: cover;
 }
 
 .bigImg3 {
   background: url("../img/section-composition4.jpg") no-repeat center;
-  height: 100vh;
-  width: 50vw;
   background-size: cover;
 }
 
@@ -232,8 +215,6 @@ h1 {
 
 .description h2,
 .description2 h2 {
-  color: #ebccc2;
-  font-family: Work;
   font-size: 4.8rem;
   font-weight: 400;
   margin-bottom: 50px;
@@ -250,22 +231,12 @@ h1 {
 
 .videoMain {
   padding: 100px 260px;
-  /* position: absolute;
-  top: 8%;
-  bottom: 20%;
-  left: 20%;
-  right: 15%; */
 }
 
 video {
   height: 500px;
   width: 800px;
   margin-bottom: 60px;
-}
-
-.descVideo {
-  font-family: Work;
-  color: #ebccc2;
 }
 
 .descVideo h2 {
@@ -331,7 +302,6 @@ video {
 }
 
 .imgDesc {
-  /* margin: 0 20px 0 20px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -341,17 +311,13 @@ video {
 }
 
 .imgDesc h2 {
-  color: #ebccc2;
   font-weight: 400;
-  font-family: Work;
   font-size: 2rem;
   margin-bottom: 15px;
 }
 
 .imgDesc h3 {
-  color: #ebccc2;
   font-weight: 400;
-  font-family: Work;
   font-size: 2.4rem;
   margin-bottom: 20px;
 }
@@ -383,6 +349,68 @@ video {
   padding: 10px 30px;
   font-family: Work;
   font-size: 1.6rem;
+}
+
+/* - Newsletter */
+
+.newsletter {
+  background: url("../img/section-composition4.jpg") no-repeat center;
+  background-size: cover;
+  height: 160vh;
+}
+
+.formulaNewsContact {
+  position: relative;
+}
+
+.formGeneralStyle {
+  border: 1px solid #ebccc282;
+  border-radius: 20px;
+  width: 600px;
+  padding: 10px 20px;
+  background-color: #2e2e2eac;
+  position: absolute;
+}
+
+.formulaNews {
+  top: 200px;
+  left: 30vw;
+  height: 300px;
+}
+
+.formulaContact {
+  left: 30vw;
+  top: 600px;
+}
+
+.formulaNews h2,
+.formulaContact h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2.4rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 1.6rem;
+}
+
+input,
+select {
+  height: 30px;
+  margin-bottom: 20px;
+}
+textarea {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #ebccc2;
+  height: 50px;
+  color: #737373;
+  font-family: Work;
 }
 
 /* - media queries */
