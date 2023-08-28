@@ -1,0 +1,422 @@
+@font-face {
+  font-family: Work;
+  src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.landingPage {
+  background: #2e2e2e;
+  height: 100%;
+  /* position: relative; */
+}
+
+.landingPage2 {
+  background: #2e2e2e;
+  height: 100%;
+  /* position: relative; */
+}
+
+/* - Page Styling */
+
+.page2and3and4 {
+  background: #2e2e2e;
+  height: 100%;
+}
+
+/* - header styling */
+
+/* .positionHeader {
+  position: relative;
+} */
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+}
+header img {
+  margin-right: 52vw;
+}
+
+header a {
+  font-size: 1.6rem;
+  font-family: Work;
+  color: #867772;
+}
+nav a {
+  margin-right: 30px;
+}
+
+nav a:hover {
+  color: #ffffff;
+  transition: 0.7s ease;
+  text-decoration: underline;
+}
+
+/* - aside styling */
+
+aside {
+  position: fixed;
+  margin-left: 25px;
+  top: 150px;
+}
+
+aside a {
+  font-size: 1.6rem;
+  color: #737373;
+  font-family: Work;
+}
+
+.elipseAbout {
+  position: absolute;
+  bottom: 351px;
+  right: 94px;
+}
+
+.elipseExp {
+  position: absolute;
+  bottom: 171px;
+  right: 123px;
+}
+
+.elipseLounger {
+  position: absolute;
+  bottom: 261px;
+  right: 101px;
+}
+
+.elipseInspi {
+  position: absolute;
+  bottom: 83px;
+  right: 124px;
+}
+.elipseShop {
+  position: absolute;
+  top: 350px;
+  right: 94px;
+}
+
+/* .elipse {
+  padding: 7px 10px;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 100%;
+} */
+
+aside span {
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+/* - aside hover */
+
+aside a:hover {
+  color: #ffffff;
+  transition: 0.7s ease;
+}
+
+aside a:active {
+  color: #ffffff;
+}
+
+.spacing {
+  margin: 10px 0 10px 3px;
+  height: 50px;
+  border-left: 1px solid #737373;
+}
+
+/* - upperMain styling */
+
+.upperMain {
+  padding: 120px 60px;
+  /* height: 120vh; */
+}
+
+.upperImg {
+  background: url("../img/section-about-1.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 100px;
+  color: #ebccc2;
+  font-family: Work;
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-left: 350px;
+  width: 250px;
+  height: 50px;
+}
+
+/* - lower main styling */
+
+.lowerMain {
+  display: flex;
+  margin-left: 300px;
+  padding: 70px 0 35px 0;
+}
+.lowerImg {
+  background: url("../img/BS1_NYC_Home.webp") no-repeat center;
+  background-size: cover;
+  height: 430px;
+  width: 430px;
+  margin-right: 65px;
+}
+
+.description {
+  width: 300px;
+  margin-top: 50px;
+}
+
+.description h3 {
+  color: #ebccc2;
+  font-family: Work;
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.description p,
+.description2 p {
+  color: #737373;
+  font-family: Work;
+  font-size: 1.6rem;
+}
+
+.description p:nth-of-type(1) {
+  margin-bottom: 20px;
+}
+
+/* - image Styling */
+
+.bigImg {
+  background: url("../img/section-experience-1.jpg") no-repeat center;
+  height: 100vh;
+  width: 50vw;
+  background-size: cover;
+}
+
+.bigImg2 {
+  background: url("../img/section-voyager.jpg") no-repeat center;
+  height: 100vh;
+  width: 50vw;
+  background-size: cover;
+}
+
+.bigImg3 {
+  background: url("../img/section-composition4.jpg") no-repeat center;
+  height: 100vh;
+  width: 50vw;
+  background-size: cover;
+}
+
+/* - Page Expirience styling */
+
+.content {
+  display: flex;
+}
+
+.description h2,
+.description2 h2 {
+  color: #ebccc2;
+  font-family: Work;
+  font-size: 4.8rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.content .description {
+  padding: 80px 0;
+  margin-left: 110px;
+}
+
+/* - Inspiration Styling */
+
+/* - obere section */
+
+.videoMain {
+  padding: 100px 260px;
+  /* position: absolute;
+  top: 8%;
+  bottom: 20%;
+  left: 20%;
+  right: 15%; */
+}
+
+video {
+  height: 500px;
+  width: 800px;
+  margin-bottom: 60px;
+}
+
+.descVideo {
+  font-family: Work;
+  color: #ebccc2;
+}
+
+.descVideo h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.descVideo h3 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.descVideo p {
+  color: #737373;
+  font-family: Work;
+  font-size: 1.6rem;
+  margin-bottom: 100px;
+}
+
+.props p {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin-right: 4px;
+  color: #737373;
+  font-family: Work;
+  font-size: 1.6rem;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+}
+
+.props {
+  display: flex;
+}
+
+/* - untere section */
+
+.raster img {
+  width: 100%;
+  height: 100%;
+}
+
+.raster {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.raster img:nth-of-type(2) {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.imgDesc:nth-of-type(2) {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin-right: 50px;
+}
+
+.imgDesc:first-of-type {
+  margin-left: 20px;
+}
+
+.imgDesc {
+  /* margin: 0 20px 0 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.imgDesc:first-of-type p {
+  width: 400px;
+}
+
+.imgDesc h2 {
+  color: #ebccc2;
+  font-weight: 400;
+  font-family: Work;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.imgDesc h3 {
+  color: #ebccc2;
+  font-weight: 400;
+  font-family: Work;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+.imgDesc p {
+  color: #737373;
+  font-family: Work;
+  font-size: 1.6rem;
+  height: 250px;
+  width: 300px;
+}
+
+/* - Shop Page styling */
+
+.description2 {
+  text-align: center;
+  margin: 45px 100px;
+}
+
+.description2 p:first-of-type,
+.description2 p:nth-of-type(2) {
+  margin-bottom: 20px;
+}
+
+.description2 a {
+  text-decoration: none;
+  color: #2e2e2e;
+  border: 2px solid #ebccc2;
+  background-color: #ebccc2;
+  padding: 10px 30px;
+  font-family: Work;
+  font-size: 1.6rem;
+}
+
+/* - media queries */
+
+@media only screen and (max-width: 768px) {
+  .raster {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  video {
+    width: 400px;
+    height: 300px;
+  }
+
+  .raster img:nth-of-type(2) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .imgDesc:nth-of-type(2) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-right: 50px;
+  }
+
+  .bigImg3,
+  .bigImg2,
+  .bigImg {
+    height: 150vh;
+  }
+
+  .lowerMain {
+    margin-left: 150px;
+  }
+}

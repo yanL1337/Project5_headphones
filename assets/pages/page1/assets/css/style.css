@@ -1,0 +1,68 @@
+/* @font-face {
+  font-family: Work;
+  src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page2 {
+  height: 100vh;
+  background: #2e2e2e;
+}
+
+/* - header styling */
+
+/* .positionHeader {
+  position: relative;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+}
+header img {
+  margin-right: 52vw;
+}
+
+header a {
+  font-size: 1.6rem;
+  font-family: Work;
+  color: #867772;
+}
+nav a {
+  margin-right: 30px;
+} */
+
+/* - aside styling */
+
+/* aside {
+  position: fixed;
+  margin-left: 25px;
+  top: 150px;
+}
+
+aside a {
+  font-size: 1.6rem;
+  color: #737373;
+  font-family: Work;
+}
+
+.spacing {
+  margin: 10px 0 10px 3px;
+  height: 50px;
+  border-left: 1px solid #737373;
+} */
